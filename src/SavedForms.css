@@ -1,0 +1,32 @@
+.saved-forms-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #DFFBE5; /* Cor de fundo combinando com o restante do projeto */
+  height: 90vh; /* Define a altura do contêiner para 90% da altura da viewport */
+  overflow-y: auto; /* Adiciona rolagem vertical */
+  overflow-x: hidden; /* Garante que não haja rolagem horizontal */
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4), 0 12px 24px rgba(0, 0, 0, 0.35); /* Aumenta a sombra escura */
+  padding: 20px;
+  margin: 10px 0; /* Ajuste de margem para melhor espaçamento */
+  width: 80%;
+  max-width: 600px;
+  word-wrap: break-word; /* Adiciona quebra de linha automática */
+  overflow: hidden; /* Garante que o conteúdo não transborde */
+}
+
+.card p {
+  margin: 10px 0;
+}
+
+.card strong {
+  display: inline-block;
+  width: 100px;
+  vertical-align: top; /* Alinha o texto superior dos labels */
+}
